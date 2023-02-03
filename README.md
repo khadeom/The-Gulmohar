@@ -27,8 +27,8 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-material-kit.git
-$ cd django-material-kit
+$ git clone https://github.com/khadeom/The-Gulmohar.git
+$ cd The-Gulmohar
 ```
 
 <br />
@@ -92,18 +92,6 @@ $ python manage.py runserver
 ```
 
 At this point, the app runs at `http://127.0.0.1:8000/`. 
-
-<br />
-
-## ✨ Create Users
-
-By default, the app redirects guest users to authenticate. In order to access the private pages, follow this set up: 
-
-- Start the app via `flask run`
-- Access the `registration` page and create a new user:
-  - `http://127.0.0.1:8000/register/`
-- Access the `sign in` page and authenticate
-  - `http://127.0.0.1:8000/login/`
 
 <br />
 
