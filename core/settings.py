@@ -24,7 +24,7 @@ ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')
 
 # load production server from .env
 # ALLOWED_HOSTS        = ['localhost', 'localhost:85', '127.0.0.1', 'gulmohar.azurewebsites.net',               env('SERVER', default='127.0.0.1') ]
-ALLOWED_HOSTS        = ['gulmohar.azurewebsites.net',"gulmohar.live"]
+ALLOWED_HOSTS        = ['gulmohar.azurewebsites.net',"gulmohar.live", "127.0.0.1"]
 
 
 
