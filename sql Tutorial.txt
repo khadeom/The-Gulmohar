@@ -2,3 +2,7 @@ https://blog.nextideatech.com/how-to-create-a-django-app-and-connect-it-to-a-dat
 
 sudo apt install build-essential libssl-dev libpq-dev libffi-dev python3-dev
 sudo apt install postgresql postgresql-contrib
+
+
+Rated 4.7 on google, We provide one of best stay in Chikhaldhara which is Buget Frendly
+
