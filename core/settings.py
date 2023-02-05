@@ -22,6 +22,9 @@ DEBUG = env('DEBUG')
 # Assets Management
 ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets') 
 
+TRAVEL_FOX = os.getenv('TRAVEL_FOX','/static/travel_fox')
+
+
 # load production server from .env
 # ALLOWED_HOSTS        = ['localhost', 'localhost:85', '127.0.0.1', 'gulmohar.azurewebsites.net',               env('SERVER', default='127.0.0.1') ]
 ALLOWED_HOSTS        = ['gulmohar.azurewebsites.net',"gulmohar.live", "127.0.0.1"]
@@ -39,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.home'  # Enable the inner home (home)
+    'apps.home',  # Enable the inner home (home)
+    'livereload'
 ]
 
 MIDDLEWARE = [
