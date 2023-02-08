@@ -113,13 +113,17 @@
 
     <section class="about" id="about">
       <div class="video-container" data-aos="fade-right" data-aos-delay="300">
-        <video
+        {% comment %}<img style="height: 500px; width: 500px;"
+              src="{% static 'assets/gulmohar_imgs/sideFront.jpg' %}"
+              alt=""
+            /> {% endcomment %}
+         <video
           src="static/travel_fox/images/production ID-4147886.mp4"
           muted
           autoplay
           loop
           class="video"
-        ></video>
+        ></video> 
       </div>
 
       <div class="content" data-aos="fade-left" data-aos-delay="600">
@@ -147,7 +151,7 @@
       <div class="box-container">
         <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
           <i class="fas fa-globe"></i>
-          <a href="https://www.flaticon.com/free-icons/eco-friendly" title="eco friendly icons">Eco friendly icons created by Freepik - Flaticon</a>
+          {% comment %} <a href="https://www.flaticon.com/free-icons/eco-friendly" title="eco friendly icons">Eco friendly icons created by Freepik - Flaticon</a> {% endcomment %}
           <h3>worldwide</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam,
