@@ -29,9 +29,9 @@
 
     <header class="header">
       <div id="menu-btn" class="fas fa-bars"></div>
-
+      <a href="#" style="width: 10px ; height: 20px" ><img class="gul-logo" src="{% static 'travel_fox/images/logo.png' %}" style="width: auto; height:75px;position: relative; top: -26px"></a>
       <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"
-        ><span>T</span>ravel <span>F</span>ox
+        ><span>T</span>he <span>G</span>ulmohar
       </a>
 
       <nav class="navbar">
@@ -77,10 +77,12 @@
       </div>
     </section>
 
+
+    
     <!-- home section ends -->
 
     <!-- booking form section starts  -->
-
+{% comment %} 
     <section class="book-form" id="book-form">
       <form action="">
         <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
@@ -103,7 +105,7 @@
           class="btn"
         />
       </form>
-    </section>
+    </section> {% endcomment %}
 
     <!-- booking form section ends -->
 
@@ -111,14 +113,18 @@
 
     <section class="about" id="about">
       <div class="video-container" data-aos="fade-right" data-aos-delay="300">
-       {% comment %} <video
+        {% comment %}<img style="height: 500px; width: 500px;"
+              src="{% static 'assets/gulmohar_imgs/sideFront.jpg' %}"
+              alt=""
+            /> {% endcomment %}
+        <video
           src="static/travel_fox/images/production ID-4147886.mp4"
           muted
           autoplay
           loop
           class="video"
-        ></video>{% endcomment %}
-      </div> 
+        ></video> 
+      </div>
 
       <div class="content" data-aos="fade-left" data-aos-delay="600">
         <span>Who we are ?</span>
@@ -145,6 +151,7 @@
       <div class="box-container">
         <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
           <i class="fas fa-globe"></i>
+          {% comment %} <a href="https://www.flaticon.com/free-icons/eco-friendly" title="eco friendly icons">Eco friendly icons created by Freepik - Flaticon</a> {% endcomment %}
           <h3>worldwide</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam,
@@ -323,99 +330,113 @@
             src="{% static 'assets/gulmohar_imgs/livingroom2.jpg' %}"
             alt=""
           />
-          <span>travel spot</span>
-          <h3>iceland</h3>
+          {% comment %} <span>travel spot</span> {% endcomment %}
+          {% comment %} <h3>Img1</h3> {% endcomment %}
         </div>
 
         <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-          <img
-            src="{% static 'assets/gulmohar_imgs/LivingRoom.jpg' %}"
-            alt=""
-          />
-          {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>greenland</h3>
-        </div>
-
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-          <img src="{% static 'assets/gulmohar_imgs/parking.jpg' %}" alt="" />
-          {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>alaska</h3>
-        </div>
-
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
           <img
             src="{% static 'assets/gulmohar_imgs/frontview2.jpg' %}"
             alt=""
           />
           {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>thailand</h3>
+          {% comment %} <h3>Img2</h3> {% endcomment %}
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-          <img
-            src="{% static 'assets/gulmohar_imgs/livingroom2.jpg' %}"
-            alt=""
-          />
+        <div class="box gallery" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="{% static 'assets/gulmohar_imgs/parking.jpg' %}" alt="" />
           {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>brazil</h3>
+          {% comment %} <h3>img3</h3> {% endcomment %}
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+        <div class="box gallery" data-aos="zoom-in-up" data-aos-delay="150">
           <img
             src="{% static 'assets/gulmohar_imgs/beadroom1.1.jpg' %}"
             alt=""
           />
           {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>maldive</h3>
+          {% comment %} <h3>img4</h3> {% endcomment %}
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+        <div class="box gallery" data-aos="zoom-in-up" data-aos-delay="300">
+          <img
+            src="{% static 'assets/gulmohar_imgs/LivingRoom.jpg'  %}"
+            alt=""
+          />
+          {% comment %} <span>travel spot</span> {% endcomment %}
+          {% comment %} <h3>img5</h3> {% endcomment %}
+        </div>
+
+        <div class="box gallery" data-aos="zoom-in-up" data-aos-delay="450">
+          <img
+            src="{% static 'assets/gulmohar_imgs/coffeset.png'  %}"
+            alt=""
+          />
+          {% comment %} <span>travel spot</span> {% endcomment %}
+          {% comment %} <h3>img6</h3> {% endcomment %}
+        </div>
+
+        <div class="box gallery" data-aos="zoom-in-up" data-aos-delay="150">
           <img
             src="{% static 'assets/gulmohar_imgs/frontview2.jpg' %}"
             alt=""
           />
           {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>iceland</h3>
+          {% comment %} <h3>img7</h3> {% endcomment %}
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+        <div class="box gallery" data-aos="zoom-in-up" data-aos-delay="300">
           <img
-            src="{% static 'assets/gulmohar_imgs/coffeset.png' %}"
+            src="{% static 'assets/gulmohar_imgs/livingroom2.jpg' %}"
             alt="Coffeset"
           />
           {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>alaska</h3>
+          {% comment %} <h3>img8</h3> {% endcomment %}
         </div>
 
-        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+        <div class="box " data-aos="zoom-in-up" data-aos-delay="450"  >
           <img src="{% static 'assets/gulmohar_imgs/sideFront.jpg' %}" alt="" />
           {% comment %} <span>travel spot</span> {% endcomment %}
-          <h3>maldive</h3>
+          {% comment %} <h3>img9</h3> {% endcomment %}
         </div>
       </div>
     </section>
 
-    <!-- gallery section ends -->
+
+
+
+
 
     <!-- review section starts  -->
-
     <section class="review">
       <div class="box-container" data-aos="fade-right" data-aos-delay="300">
-        <div class="box">
-          <p>"It's best property to stay in residential area...Good atmosphere, rooms are neat and clean, lovely garden located back side of property..Tree plantation and small lawn gives you a complete nature touch."        </p>
+        <div class="box" id="box">
+          <p>
+            "It's best property to stay in residential area.
+          </p>
+          
           <div class="user">
-            <img src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/Ashish Joshi.png' %}" alt="" />
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/Ashish Joshi.png' %}"
+              alt=""
+            />
             <div class="info">
               <h3>Ashish joshi</h3>
               <span>Guest</span>
             </div>
+
           </div>
         </div>
         <div class="box">
-          <p>Nice place to visit with family 👨‍👩‍👧‍👦 Awesome place clean and hygienic rooms,parking place available.. Rooms service was very good ,staff is well mannered..😇 Nice hotel in chikhladra❤️ The hotel is very budget💰 and the service also very excellent⭐👍 Good hotel for stay😊 Nice Experience 🤗🤩"
-        </p>
+          <p>
+            Nice place to visit with family 👨‍👩‍👧‍👦 Awesome place clean and hygienic
+            rooms.
+          </p>
           <div class="user">
-            <img src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/yogita.png'%}" alt="" />
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/yogita.png'%}"
+              alt=""
+            />
             <div class="info">
               <h3>Yogita Bhoyar</h3>
               <span>Guest</span>
@@ -423,9 +444,14 @@
           </div>
         </div>
         <div class="box">
-          <p>Nice place to get accommodation when you are in Chikhaldarra. Good Place. No disturbance. Great connectivity.</p>
+          <p>
+            Nice place to get accommodation when you are in Chikhaldarra.
+          </p>
           <div class="user">
-            <img src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/gaynesh.png'%}" alt="" />
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/gaynesh.png'%}"
+              alt=""
+            />
             <div class="info">
               <h3>Gyanesh Nanore</h3>
               <span>Guest</span>
@@ -435,7 +461,10 @@
         <div class="box">
           <p>Very budget friendly and the care taker is nice.</p>
           <div class="user">
-            <img src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/Hrrishta Tiwari.png'%}" alt="" />
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/Hrrishta Tiwari.png'%}"
+              alt=""
+            />
             <div class="info">
               <h3>Hrishita Tiwari</h3>
               <span>Guest</span>
@@ -447,14 +476,124 @@
       <div class="content" data-aos="fade-left" data-aos-delay="600">
         <span>testimonials</span>
         <h3>good news from our clients</h3>
-        <p>
-            Rated 4.7 on google, 
-            We provide one of best stay in Chikhaldhara.
-        </p>
+        <p>Rated 4.7 on google, We provide one of best stay in Chikhaldhara.</p>
+      </div>
+  </section>
+
+
+<!-- 
+    <section class="review">
+      <div class="box-container" data-aos="fade-right" data-aos-delay="300">
+        <div class="box" id="box" style="height: 300px">
+          <p>
+            "It's best property to stay in residential area...Good atmosphere,
+            rooms are neat and clean, lovely garden <span id="dot">...</span><span id="more" style="display:none">located back side of
+            property..Tree plantation and small lawn gives you a complete nature
+            touch."</span>
+
+            
+          </p>
+          <div class="read-more" style="postion: relative; margin-left: 120px">
+            <a class="read" id="mybtn" style="width: 20px; height: 30px; font-size:12px; cursor:pointer" onClick="readMore()" >...read more</a>
+          </div>
+          <div class="user">
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/Ashish Joshi.png' %}"
+              alt=""
+            />
+            <div class="info">
+              <h3>Ashish joshi</h3>
+              <span>Guest</span>
+            </div>
+
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Nice place to visit with family 👨‍👩‍👧‍👦 Awesome place clean and hygienic
+            rooms,parking place available.. Rooms service was very good ,staff
+            is well mannered..😇 Nice hotel in chikhladra❤️ The hotel is very
+            budget💰 and the service also very excellent⭐👍 Good hotel for
+            stay😊 Nice Experience 🤗🤩"
+          </p>
+          <div class="user">
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/yogita.png'%}"
+              alt=""
+            />
+            <div class="info">
+              <h3>Yogita Bhoyar</h3>
+              <span>Guest</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Nice place to get accommodation when you are in Chikhaldarra. Good
+            Place. No disturbance. Great connectivity.
+          </p>
+          <div class="user">
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/gaynesh.png'%}"
+              alt=""
+            />
+            <div class="info">
+              <h3>Gyanesh Nanore</h3>
+              <span>Guest</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>Very budget friendly and the care taker is nice.</p>
+          <div class="user">
+            <img
+              src="{% static 'assets/gulmohar_imgs/Guest_profile_pic/Hrrishta Tiwari.png'%}"
+              alt=""
+            />
+            <div class="info">
+              <h3>Hrishita Tiwari</h3>
+              <span>Guest</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>testimonials</span>
+        <h3>good news from our clients</h3>
+        <p>Rated 4.7 on google, We provide one of best stay in Chikhaldhara.</p>
       </div>
     </section>
 
-    <!-- review section ends -->
+review section ends -->
+
+
+    <!-- script-->
+    <script>
+
+        const readMore = () => {
+          const dots = document.getElementById("dot")
+          const moreText = document.getElementById("more")
+          const btnText = document.getElementById("mybtn")
+          const boxSize = document.getElementById("box")
+  
+          if(dot.style.display === "none"){
+            dot.style.display = "inline";
+            readMore.innerHTML = "Read More"
+            moreText.style.display = "none"
+            boxSize.style.height = "300px"
+            
+          }else{
+            dot.style.display = "none";
+            readMore.innerHTML = "Read Less"
+            moreText.style.display = "inline"
+            boxSize.style.height = "auto"
+          }
+        }
+        
+    </script>
+    <!--script-->
+
 
     <!-- banner section starts  -->
 
@@ -483,13 +622,17 @@
       <div class="box-container">
         <div class="box" data-aos="fade-up" data-aos-delay="150">
           <div class="image">
-            <img src="{% static 'assets/img/attraction/Bhemkund.jpg'%}" alt="" />
+            <img
+              src="{% static 'assets/img/attraction/Bhemkund.jpg'%}"
+              alt=""
+            />
           </div>
           <div class="content">
             <a href="#" class="link">Bhemkund.</a>
             <p>
-                Bhimkund is a Natural blue water tank located at a distance of around 78 km from Chhattarpur district,
-                 on the way from Chikhaldara to Pratwada.
+              Bhimkund is a Natural blue water tank located at a distance of
+              around 78 km from Chhattarpur district, on the way from
+              Chikhaldara to Pratwada.
             </p>
             <div class="icon">
               <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2022</a>
@@ -500,13 +643,17 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="300">
           <div class="image">
-            <img src="{% static 'assets/img/attraction/TigerReserve.jpg'%}" alt="" />
+            <img
+              src="{% static 'assets/img/attraction/TigerReserve.jpg'%}"
+              alt=""
+            />
           </div>
           <div class="content">
             <a href="#" class="link">Melghat Tiger Reserve</a>
             <p>
-                he Melghat Tiger Reserve is found in the northern part of the Amravati District, Maharashtra.
-                it is one of the 9 tiger reserves identified by Project Tiger. 
+              he Melghat Tiger Reserve is found in the northern part of the
+              Amravati District, Maharashtra. it is one of the 9 tiger reserves
+              identified by Project Tiger.
             </p>
             <div class="icon">
               <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2022</a>
@@ -517,12 +664,17 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="450">
           <div class="image">
-            <img src="{% static 'assets/img/attraction/Narnala Fort.jpg'%}" alt="" />
+            <img
+              src="{% static 'assets/img/attraction/Narnala Fort.jpg'%}"
+              alt=""
+            />
           </div>
           <div class="content">
             <a href="#" class="link">Narnala Fort</a>
             <p>
-                Resting tall and strong on an unaccompanied hill of the Satpura mountain range, the Narnala Fort stands as a testimony to the Mughals' rich history and their remarkable architecture.
+              Resting tall and strong on an unaccompanied hill of the Satpura
+              mountain range, the Narnala Fort stands as a testimony to the
+              Mughals' rich history and their remarkable architecture.
             </p>
             <div class="icon">
               <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2022</a>
@@ -540,7 +692,7 @@
     <section class="footer">
       <div class="box-container">
         <div class="box" data-aos="fade-up" data-aos-delay="150">
-          <a href="#" class="logo"> <span>T</span>ravel <span>F</span>ox</a>
+          <a href="#" class="logo"> <span>T</span>he <span>G</span>ulmohar</a>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
             ad?

@@ -12,5 +12,5 @@ urlpatterns = [
     path("landing4", landing4, name="landing4"),
     path("landing5", landing5, name="landing5"),
     path("landing6", landing6, name="landing6"),
-    path("landing7", landing7, name="landing7"),
+    path("", landing7, name="landing7"),
 ]
