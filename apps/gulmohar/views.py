@@ -16,3 +16,6 @@ def landing5(request):
 
 def landing6(request):
     return render(request, "gulmohar/landing6.html")
+
+def landing7(request):
+    return render(request, "gulmohar/landing7.html")
