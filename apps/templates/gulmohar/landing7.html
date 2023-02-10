@@ -358,7 +358,7 @@
             />
           </div>
           <div class="content">
-            <p>Spacious Bedroom</p>
+            <p>Spacious Bedroom: "Comfortable and roomy sleeping quarters</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
@@ -371,7 +371,7 @@
             />
           </div>
           <div class="content">
-            <p>Nicely illuminated living room.</p>
+            <p>Bright and inviting living area.</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
@@ -384,7 +384,7 @@
             />
           </div>
           <div class="content">
-            <p>Warm Welcome.</p>
+            <p>Greeted with a warm and cozy atmosphere</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
@@ -394,7 +394,7 @@
             <img src="{% static 'assets/gulmohar_imgs/parking.jpg' %}" alt="" />
           </div>
           <div class="content">
-            <p>Free Parking Avaliable.</p>
+            <p>Convenient and hassle-free parking available</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
@@ -407,7 +407,7 @@
             />
           </div>
           <div class="content">
-            <p>Peaceful residential property in a serene location</p>
+            <p>Quiet and tranquil residential setting in a peaceful location</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
@@ -420,7 +420,7 @@
             />
           </div>
           <div class="content">
-            <p>Instant tea & coffee available..</p>
+            <p>Enjoy a hot cup of tea or coffee at any time</p>
             <a href="#">read more <i class="fas fa-angle-right"></i></a>
           </div>
         </div>
@@ -735,8 +735,10 @@ review section ends -->
 <div data-aos="zoom-in-up" data-aos-delay="300" style="text-align: center; padding: 30px;">
   <h2 style="font-size: 36px; font-weight: 700; color: #fff; margin-bottom: 20px; font-family: 'Open Sans', sans-serif;">Contact Us</h2>
   <p style="font-size: 18px; font-weight: 600;color: #fff;  margin-bottom: 20px; font-family: 'Open Sans', sans-serif;">For booking, call us on this number:</p>
-  <p style="font-size: 30px; font-weight: bold;color: #fff;  margin-bottom: 20px; font-family: 'Open Sans', sans-serif;">+91 9370553650</p>
-  <a href="#BookNow" class="btn">book now</a>
+  <a style="font-size: 30px; font-weight: bold;color: #fff;  margin-bottom: 20px; font-family: 'Open Sans', sans-serif;" href="tel:+919370553650">+919370553650</a> <br>
+  
+  {% comment %} <p style="font-size: 30px; font-weight: bold;color: #fff;  margin-bottom: 20px; font-family: 'Open Sans', sans-serif;">+91 9370553650</p> {% endcomment %}
+  <a href="tel:+919370553650" class="btn">book now</a>
 
 </div>
       </div>
@@ -749,7 +751,7 @@ review section ends -->
     <section class="blogs" id="blogs">
       <div class="heading">
         <span>blogs & posts</span>
-        <h1>Experience in words</h1>
+        <h1>Nearby Attractions</h1>
       </div>
 
       <div class="box-container">
@@ -768,7 +770,7 @@ review section ends -->
               Chikhaldara to Pratwada.
             </p>
             <div class="icon">
-              <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2022</a>
+              <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2023</a>
               <a href="#"><i class="fas fa-user"></i> by admin</a>
             </div>
           </div>
@@ -789,7 +791,7 @@ review section ends -->
               identified by Project Tiger.
             </p>
             <div class="icon">
-              <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2022</a>
+              <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2023</a>
               <a href="#"><i class="fas fa-user"></i> by admin</a>
             </div>
           </div>
@@ -810,7 +812,7 @@ review section ends -->
               Mughals' rich history and their remarkable architecture.
             </p>
             <div class="icon">
-              <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2022</a>
+              <a href="#"><i class="fas fa-clock"></i> 05th Jan, 2023</a>
               <a href="#"><i class="fas fa-user"></i> by admin</a>
             </div>
           </div>
@@ -862,7 +864,8 @@ review section ends -->
         <div class="box" data-aos="fade-up" data-aos-delay="450">
           <h3>contact info</h3>
           <p><i class="fas fa-map"></i> Chikhaldara, india</p>
-          <p><i class="fas fa-phone"></i> +919370553650</p>
+          {% comment %} <a  class="fas fa-phone" href="tel:+919370553650">+919370553650</a> {% endcomment %}
+          <p><i  class="fas fa-phone"></i> +919370553650</p>
           <p><i class="fas fa-envelope"></i> shubhamkhd@gmail.com</p>
           {% comment %} <p><i class="fas fa-clock"></i> 7:00am - 10:00pm</p> {% endcomment %}
         </div>
