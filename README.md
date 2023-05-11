@@ -6,8 +6,8 @@
 > **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ git clone https://github.com/app-generator/django-material-kit.git
-$ cd django-material-kit
+$ git clone https://github.com/khadeom/The-Gulmohar.git
+$ cd The-Gulmohar
 ```
 
 <br />
