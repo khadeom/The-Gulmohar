@@ -1,4 +1,5 @@
-# The Gulmohar 
+# The-Gulmohar 
+The Gulmohar is a beautiful bed and breakfast (BNB) located in a picturesque location. This website serves as an online platform for guests to explore the Gulmohar's accommodations, and amenities, and make reservations
 ### Deployed using Azure Cloud Services [The Gulmohar](https://gulmohar.live)
 
 ## ✨ Start the app in Docker
