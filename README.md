@@ -1,12 +1,14 @@
-# The Gulmohar
+# The-Gulmohar 
+The Gulmohar is a beautiful bed and breakfast (BNB) located in a picturesque location. This website serves as an online platform for guests to explore the Gulmohar's accommodations, and amenities, and make reservations
+### Deployed using Azure Cloud Services [The Gulmohar](https://gulmohar.live)
 
 ## ✨ Start the app in Docker
 
 > **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ git clone https://github.com/app-generator/django-material-kit.git
-$ cd django-material-kit
+$ git clone https://github.com/khadeom/The-Gulmohar.git
+$ cd The-Gulmohar
 ```
 
 <br />
